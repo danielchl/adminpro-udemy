@@ -13,6 +13,7 @@ import { IncrementadorComponent } from "../components/incrementador/incrementado
 import { ChartsModule } from 'ng2-charts';
 import { GraficoDonutComponent } from "../components/grafico-donut/grafico-donut.component";
 import { CommonModule } from "@angular/common";
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { CommonModule } from "@angular/common";
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficoDonutComponent
+        GraficoDonutComponent,
+        AccountSettingsComponent
     ],
     exports: [
         PagesComponent,
